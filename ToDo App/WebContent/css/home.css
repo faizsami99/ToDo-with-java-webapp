@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	background: linear-gradient(to right top, #5eecb4,#46b186);
+}
+
+#mylinks {
+	color: black;
+	display: flex;
+	justify-content: space-around;
+}
+
+#mylinks a {
+	display: inline-block;
+	color: black;
+	background: #00cc00;
+	margin-top: 10px;
+	border: 2px solid #00cc00;
+	padding: 10px 30px;
+	border-radius: 6px;
+	font-size: 25px;
+	text-align: center;
+	transition: all 0.3s ease;	
+	cursor: pointer;
+}
+#mylinks a:hover {
+	background: none;
+}
+
+#container{
+	color: white;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	height: 100vh;
+}
+
+#heading {
+	display: flex;
+	flex-direction:row;
+	font-size: 20px;
+	text-align: center;
+}
+
+#heading p {
+	margin: 5px 5px;
+}
+
+#items {
+	display: flex;
+	flex-direction:row;
+	font-size: 20px;
+	text-align: center;
+}
+#items p,a {
+	margin: 5px 5px;
+}
+
+#items a {
+	display: inline-block;
+	color: white;
+	background: blue;
+	margin-top: 10px;
+	border: 2px solid #00cc00;
+	padding: 10px 30px;
+	border-radius: 6px;
+	font-size: 25px;
+	text-align: center;
+	transition: all 0.3s ease;	
+	cursor: pointer;
+}
+
+#items a:hover {
+	background: none;
+}
